@@ -63,25 +63,25 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for Random Develop
+				// Custom colors for PressStart
 				pulse: {
-					"50": "#f0fdf4",
-					"100": "#dcfce7",
-					"200": "#bbf7d0",
-					"300": "#86efac",
-					"400": "#4ade80",
-					"500": "#22c55e", // Primary green
-					"600": "#16a34a",
-					"700": "#15803d",
-					"800": "#166534",
-					"900": "#14532d",
-					"950": "#052e16",
+					"50": "#fef2f2",
+					"100": "#fee2e2",
+					"200": "#fecaca",
+					"300": "#fca5a5",
+					"400": "#f87171",
+					"500": "#ff0000", // Primary red
+					"600": "#dc2626",
+					"700": "#b91c1c",
+					"800": "#991b1b",
+					"900": "#7f1d1d",
+					"950": "#450a0a",
 				},
 				dark: {
-					"900": "#121212", // Almost black
-					"800": "#1e1e1e",
-					"700": "#2d2d2d",
-					"600": "#3d3d3d",
+					"900": "#000000", // Pure black
+					"800": "#0a0a0a",
+					"700": "#1a1a1a",
+					"600": "#2a2a2a",
 				},
 			},
 			borderRadius: {
@@ -137,9 +137,9 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'hero-gradient': 'linear-gradient(90deg, hsla(142, 76%, 73%, 1) 0%, hsla(158, 64%, 52%, 1) 100%)',
-				'hero-gradient-2': 'linear-gradient(90deg, hsla(142, 69%, 58%, 1) 0%, hsla(142, 76%, 36%, 1) 100%)',
-				'pulse-gradient': 'linear-gradient(180deg, rgba(34,197,94,0.8) 0%, rgba(34,197,94,0) 100%)',
+				'hero-gradient': 'linear-gradient(90deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 30%, 1) 100%)',
+				'hero-gradient-2': 'linear-gradient(90deg, hsla(0, 100%, 40%, 1) 0%, hsla(0, 100%, 20%, 1) 100%)',
+				'pulse-gradient': 'linear-gradient(180deg, rgba(255,0,0,0.8) 0%, rgba(255,0,0,0) 100%)',
 			},
 			fontFamily: {
 				'sans': ['Inter', 'sans-serif'],

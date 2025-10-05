@@ -1,6 +1,6 @@
-# Random Develop
+# PressStart
 
-A modern React application showcasing Atlas Robot - where code meets motion.
+A modern React application showcasing cutting-edge development - where code meets motion.
 
 ## Getting Started
 
